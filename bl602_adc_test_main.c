@@ -30,13 +30,19 @@
 static int get_tsen_adc(float *temp, uint8_t log_flag);
 
 int main(int argc, FAR char *argv[]) {
-    //  Read the Internal Temperature Sensor
-    float temp;
-    int rc = get_tsen_adc(&temp, 1);
-    assert(rc == 0);
+    //  Test 10 times
+    for (int i = 0; i < 10; i++) {
+        //  Read the Internal Temperature Sensor
+        float temp;
+        int rc = get_tsen_adc(&temp, 1);
+        assert(rc == 0);
 
-    //  Show the temperature
-    printf("Internal Temperature: %f deg C\n", temp);
+        //  Show the temperature
+        printf("Internal Temperature: %f deg C\n", temp);
+
+        //  Sleep 5 seconds
+        sleep(5);
+    }
     return 0;
 }
 
