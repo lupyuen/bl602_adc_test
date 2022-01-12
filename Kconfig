@@ -4,10 +4,10 @@
 #
 
 config EXAMPLES_BL602_ADC_TEST
-	tristate "\"Bl602_adc_test, World!\" example"
+	tristate "BL602 ADC Test App"
 	default n
 	---help---
-		Enable the \"Bl602_adc_test, World!\" example
+		Enable the BL602 ADC Test App
 
 if EXAMPLES_BL602_ADC_TEST
 
@@ -19,11 +19,11 @@ config EXAMPLES_BL602_ADC_TEST_PROGNAME
 		program is installed.
 
 config EXAMPLES_BL602_ADC_TEST_PRIORITY
-	int "Bl602_adc_test task priority"
+	int "BL602 ADC Test task priority"
 	default 100
 
 config EXAMPLES_BL602_ADC_TEST_STACKSIZE
-	int "Bl602_adc_test stack size"
+	int "BL602 ADC Test stack size"
 	default DEFAULT_TASK_STACKSIZE
 
 endif
