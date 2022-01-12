@@ -18,7 +18,7 @@
  *
  ****************************************************************************/
 
-//  Demo Program for LoRa BL602_ADC on NuttX
+//  Demo Program for BL602 ADC on NuttX
 #include <nuttx/config.h>
 #include <stdio.h>
 #include <string.h>
