@@ -1,5 +1,5 @@
 /****************************************************************************
- * apps/examples/sx1262_test/sx1262_test_main.c
+ * apps/examples/bl602_adc_test/bl602_adc_test_main.c
  *
  * Licensed to the Apache Software Foundation (ASF) under one or more
  * contributor license agreements.  See the NOTICE file distributed with
@@ -18,7 +18,7 @@
  *
  ****************************************************************************/
 
-//  Demo Program for LoRa SX1262 on NuttX
+//  Demo Program for LoRa BL602_ADC on NuttX
 #include <nuttx/config.h>
 #include <stdio.h>
 #include <string.h>

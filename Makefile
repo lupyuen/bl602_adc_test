@@ -1,5 +1,5 @@
 ############################################################################
-# apps/examples/sx1262_test/Make.defs
+# apps/examples/bl602_adc_test/Make.defs
 #
 # Licensed to the Apache Software Foundation (ASF) under one or more
 # contributor license agreements.  See the NOTICE file distributed with
@@ -20,15 +20,15 @@
 
 include $(APPDIR)/Make.defs
 
-# Sx1262_test, World! built-in application info
+# Bl602_adc_test, World! built-in application info
 
-PROGNAME  = $(CONFIG_EXAMPLES_SX1262_TEST_PROGNAME)
-PRIORITY  = $(CONFIG_EXAMPLES_SX1262_TEST_PRIORITY)
-STACKSIZE = $(CONFIG_EXAMPLES_SX1262_TEST_STACKSIZE)
-MODULE    = $(CONFIG_EXAMPLES_SX1262_TEST)
+PROGNAME  = $(CONFIG_EXAMPLES_BL602_ADC_TEST_PROGNAME)
+PRIORITY  = $(CONFIG_EXAMPLES_BL602_ADC_TEST_PRIORITY)
+STACKSIZE = $(CONFIG_EXAMPLES_BL602_ADC_TEST_STACKSIZE)
+MODULE    = $(CONFIG_EXAMPLES_BL602_ADC_TEST)
 
-# Sx1262_test, World! Example
+# Bl602_adc_test, World! Example
 
-MAINSRC = sx1262_test_main.c
+MAINSRC = bl602_adc_test_main.c
 
 include $(APPDIR)/Application.mk
