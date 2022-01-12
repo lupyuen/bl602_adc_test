@@ -25,6 +25,7 @@
 #include <assert.h>
 #include <unistd.h>
 #include "../libs/libbl602_adc/bl602_adc.h"
+#include "../libs/libbl602_adc/bl602_glb.h"
 
 static int get_tsen_adc(float *temp, uint8_t log_flag);
 
