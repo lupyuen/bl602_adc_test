@@ -102,8 +102,8 @@ static int get_tsen_adc(
     //  Read the temperature based on the offset
     val = TSEN_Get_Temp(tsen_offset);
     if (log_flag) {
-        printf("offset = %d\r\n", tsen_offset);
-        printf("temperature = %f Celsius\r\n", val);
+        printf("offset = %d\n", tsen_offset);
+        printf("temperature = %f Celsius\n", val);
     }
     //  Return the temperature
     *temp = val;
