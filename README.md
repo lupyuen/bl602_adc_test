@@ -10,6 +10,8 @@ This repo depends on...
 
 -   [lupyuen/bl602_adc](https://github.com/lupyuen/bl602_adc)
 
+# Install App
+
 To add this app to your NuttX project...
 
 ```bash
