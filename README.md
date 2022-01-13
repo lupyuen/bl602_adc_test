@@ -172,5 +172,98 @@ Internal Temperature: 15.606862 deg C
 offset = 2209
 temperature = 16.380756 Celsius
 Internal Temperature: 16.380756 deg C
+nsh> bl602_adc_test
+offset = 2209
+temperature = 17.670580 Celsius
+Internal Temperature: 17.670580 deg C
+offset = 2209
+temperature = 18.057526 Celsius
+Internal Temperature: 18.057526 deg C
+offset = 2209
+temperature = 18.702438 Celsius
+Internal Temperature: 18.702438 deg C
+offset = 2209
+temperature = 16.638720 Celsius
+Internal Temperature: 16.638720 deg C
+offset = 2209
+temperature = 17.283632 Celsius
+Internal Temperature: 17.283632 deg C
+offset = 2209
+temperature = 16.896685 Celsius
+Internal Temperature: 16.896685 deg C
+offset = 2209
+temperature = 16.122791 Celsius
+Internal Temperature: 16.122791 deg C
+offset = 2209
+temperature = 17.541597 Celsius
+Internal Temperature: 17.541597 deg C
+offset = 2209
+temperature = 17.283632 Celsius
+Internal Temperature: 17.283632 deg C
+offset = 2209
+temperature = 19.347349 Celsius
+Internal Temperature: 19.347349 deg C
+nsh> bl602_adc_test
+offset = 2209
+temperature = 16.896685 Celsius
+Internal Temperature: 16.896685 deg C
+offset = 2209
+temperature = 17.025667 Celsius
+Internal Temperature: 17.025667 deg C
+offset = 2209
+temperature = 15.735845 Celsius
+Internal Temperature: 15.735845 deg C
+offset = 2209
+temperature = 16.122791 Celsius
+Internal Temperature: 16.122791 deg C
+offset = 2209
+temperature = 18.831421 Celsius
+Internal Temperature: 18.831421 deg C
+offset = 2209
+temperature = 17.412615 Celsius
+Internal Temperature: 17.412615 deg C
+offset = 2209
+temperature = 19.476332 Celsius
+Internal Temperature: 19.476332 deg C
+offset = 2209
+temperature = 20.121243 Celsius
+Internal Temperature: 20.121243 deg C
+offset = 2209
+temperature = 17.541597 Celsius
+Internal Temperature: 17.541597 deg C
+offset = 2209
+temperature = 17.283632 Celsius
+Internal Temperature: 17.283632 deg C
+nsh> bl602_adc_test
+offset = 2209
+temperature = 14.317039 Celsius
+Internal Temperature: 14.317039 deg C
+offset = 2209
+temperature = 18.960402 Celsius
+Internal Temperature: 18.960402 deg C
+offset = 2209
+temperature = 16.767702 Celsius
+Internal Temperature: 16.767702 deg C
+offset = 2209
+temperature = 17.154650 Celsius
+Internal Temperature: 17.154650 deg C
+offset = 2209
+temperature = 17.283632 Celsius
+Internal Temperature: 17.283632 deg C
+offset = 2209
+temperature = 16.896685 Celsius
+Internal Temperature: 16.896685 deg C
+offset = 2209
+temperature = 16.380756 Celsius
+Internal Temperature: 16.380756 deg C
+offset = 2209
+temperature = 16.896685 Celsius
+Internal Temperature: 16.896685 deg C
+offset = 2209
+temperature = 16.767702 Celsius
+Internal Temperature: 16.767702 deg C
+offset = 2209
+temperature = 16.509739 Celsius
+Internal Temperature: 16.509739 deg C
 nsh>
 ```
