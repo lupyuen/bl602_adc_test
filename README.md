@@ -1,10 +1,16 @@
 # Test App for BL602 ADC and Temperature Sensor Library for Apache NuttX OS
 
+This NuttX App reads BL602's Internal Temperature Sensor via ADC...
+
+-   [bl602_adc_test_main.c](bl602_adc_test_main.c)
+
+As explained in [this Twitter Thread](https://twitter.com/MisterTechBlog/status/1481425041275617283).
+
 This repo depends on...
 
 -   [lupyuen/bl602_adc](https://github.com/lupyuen/bl602_adc)
 
-To add this repo to your NuttX project...
+To add this app to your NuttX project...
 
 ```bash
 cd nuttx/apps/examples
